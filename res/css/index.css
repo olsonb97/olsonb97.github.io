@@ -20,7 +20,7 @@ header {
     background-image: url("../pics/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -5em;
+    background-position-y: -10rem;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -114,8 +114,12 @@ section h2 {
     background-position: center 70%;
 }
 
-#projects {
+#personal-projects {
     background-position: center 40%;
+}
+
+#business-projects {
+    background-position: center 80%;
 }
 
 section p {
@@ -127,7 +131,7 @@ section p {
 .project {
     position: relative;
     margin: 0 auto 80px auto;
-    max-width: 600px;
+    max-width: 800px;
     background: rgb(34, 34, 34);
     border-radius: 1em;
 }
