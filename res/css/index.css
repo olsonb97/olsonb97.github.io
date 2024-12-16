@@ -64,7 +64,7 @@ header nav ul li a {
     color: white;
     padding: 5px 15px;
     border-radius: 1em;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 header nav ul li a:hover {
@@ -79,7 +79,7 @@ main {
 
 section {
     margin: 80px auto;
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -123,6 +123,8 @@ section h2 {
 }
 
 section p {
+    margin: 0 auto;
+    max-width: 900px;
     text-align: left;
     line-height: 2em;
     font-size: 18px;
@@ -131,7 +133,7 @@ section p {
 .project {
     position: relative;
     margin: 0 auto 80px auto;
-    max-width: 800px;
+    max-width: 900px;
     background: rgb(34, 34, 34);
     border-radius: 1em;
 }
@@ -157,8 +159,17 @@ section p {
     font-size: 18px;
 }
 
+.project strong {
+    color: rgb(255, 255, 167);
+}
+
 .project a {
     font-weight: bold;
     color: rgb(94, 161, 255);
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.project a:hover {
+    color: blue;
 }
