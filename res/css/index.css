@@ -110,16 +110,28 @@ section h2 {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#about-me {
+#about-me-heading {
     background-position: center 70%;
 }
 
-#personal-projects {
+#personal-projects-heading {
     background-position: center 40%;
 }
 
-#business-projects {
+#business-projects-heading {
     background-position: center 80%;
+}
+
+#about-me em {
+    background: linear-gradient(
+        to right, 
+        indianred, orange, yellow, lime, cyan, lightblue, orchid
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-weight: bold;
 }
 
 section p {

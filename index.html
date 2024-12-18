@@ -15,41 +15,35 @@
             <h1>Brendan Olson</h1>
             <nav>
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#personal-projects">Pesronal Projects</a></li>
-                    <li><a href="#business-projects">Business Projects</a></li>
+                    <li><a href="#about-me-heading">About Me</a></li>
+                    <li><a href="#personal-projects-heading">Pesronal Projects</a></li>
+                    <li><a href="#business-projects-heading">Business Projects</a></li>
                     <!-- <li><a href="#career">Career</a></li> -->
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <div class="section-header" id="about-me">
+            <section id="about-me">
+                <div class="section-header" id="about-me-heading">
                     <h2>About Me</h2>
                 </div>
                 <p>
-                    I am a dedicated technology enthusiast with a passion for exploring
-                    emergent tech. My professional journey is driven by my curiosity,
-                    which continues leading on me on new paths. Currently, I am
-                    exploring coding and DevNet topics, expanding my skills in
-                    programming and software. I gravitate towards anything that
-                    inspires innovation and creation.
-                </p>
+                    I am a certified networking professional (CCNA, Linux+, PCAP) with an
+                    ever-growing passion for network automation and software development.
+                    Currently, I am diving into API development and exploring REST 
+                    through personal projects like my Pokedex CLI (detailed below), a tool that 
+                    combines fun and learning to deepen my understanding of programming.
+                    My curiosity drives me to tinker with software, often exploring and
+                    building solutions to self-created challenges <em>just to see what happens</em>.
+                    However, I'm not afraid to reinvent the wheel if there's something of value to be
+                    learned along the way, always embracing creative challenges that test me.
+                    I see a future where network engineers and software engineers merge, and I
+                    aspire to bridge that gap.
+                </p>                
             </section>
-            <section>
-                <div class="section-header" id="personal-projects">
+            <section id="personal-projects">
+                <div class="section-header" id="personal-projects-heading">
                     <h2>Personal Projects</h2>
-                </div>
-                <div class="project">
-                    <h3>Pokemon CLI</h3>
-                    <img src="res/pics/poke_cli.png" alt="Image of Pokemon CLI" />
-                    <p>
-                        My first Python project was a recreation of my favorite game in the
-                        CLI. This project helped me develop fundamental skills in OOP,
-                        algorithms,and the logic of continuous operations. While I
-                        obviously cannot share this project, I'm proud of the
-                        accomplishment and happy to showcase it!
-                    </p>
                 </div>
                 <div class="project">
                     <h3>Quickparse</h3>
@@ -73,29 +67,41 @@
                         <a href="https://github.com/olsonb97/ezgpt" target="_blank">EZGPT</a>
                         is a wrapper around OpenAI's GPT SDK designed to simplify
                         operations. It streamlines quick experiments by turning useful parameters
-                        into executable commands, eliminating the need to consult documentation.
+                        into executable commands, eliminating the need to research simple settings.
                         Commands include changing the model, adjusting temperature, setting
                         system prompts, and more. API key not included!
                     </p>
                 </div>
+                <div class="project">
+                    <h3>Pokedex CLI</h3>
+                    <img src="res/pics/pokedex.png" alt="Image of Pokedex CLI" />
+                    <p>
+                        <a href="https://github.com/olsonb97/pokedex_cli" target="_blank">Pokedex CLI</a> 
+                        is an interactive command-line application designed to explore Pokémon data in a 
+                        user-friendly way. It has served as my primary project for understanding HTTP, REST, 
+                        API integration, and Python's <strong>cmd</strong> module. The program fetches
+                        real-time data from PokeAPI, allowing users to search for Pokémon, view their stats, 
+                        moves, or compare any two Pokémon side by side.
+                    </p>
+                </div>
             </section>
-            <section>
-                <div class="section-header" id="business-projects">
+            <section id="business-projects">
+                <div class="section-header" id="business-projects-heading">
                     <h2>Business Projects</h2>
                 </div>
                 <div class="project">
                     <h3>Data Conversion Tools</h3>
                     <img src="res/pics/datatool.png" alt="Image of Data Tool" />
                     <p>
-                        Multiple lightweight applets I've developed with a user-friendly 
-                        <strong>Tkinter</strong> interface that utilizes <strong>pandas</strong> for 
-                        matrix operations and abstracts data conversions from multiple sources into a 
-                        single-button operation. They also incorporate libraries such as <strong>csv</strong> 
-                        for file handling, <strong>json</strong> and <strong>pyyaml</strong> for 
-                        configuration data management, <strong>regex</strong> for advanced 
-                        pattern matching and text processing, <strong>os</strong> for validation,
-                        and more.
-                    </p>                                                          
+                        I've written multiple applets and scripts that utilize <strong>pandas</strong> 
+                        for matrix operations and abstract data conversions from various sources 
+                        into a single operation. Depending on the specific requirements, I have 
+                        worked with libraries such as <strong>csv</strong> for file handling, 
+                        <strong>json</strong> and <strong>pyyaml</strong> for configuration management, 
+                        <strong>regex</strong> for advanced pattern matching and text processing, 
+                        <strong>os</strong> for system validation, and <strong>tkinter</strong> for 
+                        building user-friendly interfaces.
+                    </p>                                                                    
                 </div>
             </section>
         </main>
